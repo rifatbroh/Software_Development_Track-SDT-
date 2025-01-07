@@ -1,3 +1,0 @@
-class note link :
-
-https://bdit.community/t/for-css-flexbox/6060
