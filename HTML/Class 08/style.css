@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair", serif;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0 0 15px;
+}
+img {
+    max-width: 100%; height: auto;
+}
+body {
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section.cream-bg {
+    background-color: #fef9f3;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.header {
+    border: 1px solid #e4dcdc;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu a {
+    color: #000;
+    display: block;
+    padding: 25px 20px;
+}
+
+.header-btns a {
+    color: #000;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+a.header-btn {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.hero-text {
+    text-align: center;
+    margin-top: 68px;
+}
+
+.hero-text h1 {
+    font-size: 75px;
+    color: #17124a;
+    line-height: 69px;
+    margin-bottom: 35px;
+    font-weight: 900;
+}
+
+.hero-text h2 {
+    font-family: inherit;
+    font-weight: 400;
+    color: #000;
+}
+
+.hero-text h2 {
+    margin-bottom: 30px;
+}
+
+.hero-text ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.hero-text svg {
+    width: 20px;
+    color: black;
+    margin-right: 5px;
+}
+.hero-btn svg {
+    color: white;
+}
+
+.hero-text ul li {
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.hero-btn a {
+    background-color: rgb(65, 66, 70);
+    display: inline-flex;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 110%;
+    font-weight: 500;
+}
+
+.hero-btn svg {
+    width: 10px;
+    margin-left: 10px;
+}
+
+.hero-text ul {
+    margin-bottom: 35px;
+}
+
+.featured-on {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.featured-on img {
+    max-height: 35px;
+    margin: 0 10px;
+}
+
+.intro-video video {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.intro-video {
+    border: 14px solid #e4d7d7;
+    border-radius: 10px;
+    max-width: 80%;
+    margin: 0 auto;
+}
