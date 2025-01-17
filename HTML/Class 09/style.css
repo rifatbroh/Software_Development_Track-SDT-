@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0 0 15px;
+}
+
+img {
+    max-width: 100%; height: auto;
+}
+
+body {
+    
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #DDDEFA;
+}
+
+.logo {
+    height: 20%;
+    width: 20%;
+}
+
+.menu ul {
+    display: flex;
+    padding: 6%;
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.header-btn a {
+    text-decoration: none;
+    padding: 0 8px;
+}
+
+a.btn-1 {
+    border: 1px solid #E9EA13;
+    padding: 10px;
+    color: blue;
+    border-radius: 5px;
+
+}
+
+a.btn-2 {
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #1a73e9;
+    color: white;
+    margin-left: 10px;
+}
+
+
+.hero {
+    display: flex;
+    margin-top: 10%;
+}
+
+h1 {
+    font-size: 55px;
+    line-height: 1.1;
+    margin: 20px 0px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.hero-btn ul {
+    display: flex;
+    list-style: none;
+}
+
+.hero-btn ul a {
+    text-decoration: none;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+a.sign {
+    margin-right: 15px;
+    border: 1px solid #dfdfe2;
+    padding: 10px 17px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+a.log {
+    border: 1px solid blue;
+    padding: 10px 17px;
+    background-color: #1A73E9;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.hero-btn {
+    margin-top: 35px;
+    margin-left: -54%;
+}
+
+.hero-img {
+    width: 654px;
+    margin-top: -90px;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu-bar ul a {
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.popup {
+    border: 3px solid #524d4d17;
+    padding: 10px 0;
+    border-radius: 50px;
+    width: 65%;
+    margin: auto;
+}
+/* section start here */
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.intro-txt {
+    width: 50%;
+}
+
+.intro video {
+    width: 700px;
+    margin-top: -27px;
+}
+
+.section-2 {text-align: center;font-weight: 100;margin-bottom: 10%;}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.list p {
+    color: #929292;
+}
+
+.list {}
+
+.section-4 {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 10%;
+}
+
+.section-5 {}
+
+.section-5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    line-height: 1;
+}
+
+.right p {
+    line-height: 1.5;
+    color: #929292;
+}
+
+a.premium {
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 16px;
+    padding: 5px;
+    color: blue;
+    background-color: #e8f0fe;
+}
+
+.section-6 {
+    text-align: center;
+    margin: 10%;
+}
+
+.section-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.rifat {
+    line-height: 1.4;
+}
+
+.section-8 {
+    text-align: center;
+    font-weight: 300;
+    margin: 10%;
+}
+
+.section-9 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.a free {
+    text-decoration: none;
+}
+
+a.free {
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 14px;
+    padding: 5px 10px;
+    background-color: #e8f0fd;
+    
+}
+
+.section-10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+}
+.old {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.text {
+    text-align: center;
+    font-size: larger;
+    margin-top: 10%;
+}
+
+.app {
+    display: flex;
+    margin-left: 40%;
+}
+
+img.aaa {
+    height: 130px;
+    width: 120px;
+}
+
+img.bbb {
+    height: 48px;
+    margin-top: 41px;
+}
+
+.wrapper {
+    background-color: #f8f9fb;
+    padding: 30px;
+}
