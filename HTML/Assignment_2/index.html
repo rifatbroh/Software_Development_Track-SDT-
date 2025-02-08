@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Meal DB</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+    <!-- Header part include nav bar-->
+    <header class="container text-center z-50 justify-items-center mt-1"  id="header">
+        <div
+            class="container sm:flex bg-black text-white justify-between items-center rounded-lg p-4 px-12 fixed shadow-lg">
+            <div class="logo">
+                <h1 class="text-4xl font-bold"><a href="#header">The Meal DB</a></h1>
+            </div>
+            <div class="hidden bg-red-600 p-1 px-4 rounded-md" id="notificationAlert">
+                <span id="alertMessage" class="text-sm text-white "></span>
+            </div>
+
+
+            <nav class="quick-section flex gap-12 list-none justify-center">
+                <li class="hover:text-gray-200 cursor-pointer transition-colors duration-200"><a href="#header"
+                        id="home">Home</a> </li>
+                <li class="hover:text-gray-200 cursor-pointer transition-colors duration-200"> <a
+                        href="#searchFild">Menu</a></li>
+                <li class="hover:text-gray-200 cursor-pointer transition-colors duration-200"
+                    onclick="document.getElementById('foodSideBarList').classList.toggle('hidden');">List</li>
+
+                <li class="hover:text-gray-200 cursor-pointer transition-colors duration-200"> <a
+                        href="#footer">Contact</a></li>
+            </nav>
+        </div>
+    </header>
+
+<!-- Food side bar -->
+<section id="foodSideBarList"
+    class="fixed top-[95px] sm:top-[72px] right-0 h-screen bg-gray-500 bg-opacity-0 justify-end hidden z-30">
+    <div class="right-side bg-white shadow-lg w-[300px] h-full p-6 relative rounded-tl-xl rounded-bl-xl">
+        <!-- Close Button -->
+        <button class="absolute top-1/2 transform bg-gray-200 hover:bg-gray-300 text-gray-600 hover:text-gray-800 hover:px-8 focus:outline-none shadow-md rounded-full p-2 px-4"
+            onclick="document.getElementById('foodSideBarList').classList.add('hidden');">
+            <span class="text-xl">&rang;</span>
+        </button>
+
+        <h1 class="text-lg font-semibold mb-4">List of Food: <span id="count">0</span></h1>
+        <button class="rounded-md bg-green-600 text-white px-4 py-2 w-full" id="removeALL" onclick="removeButton()">
+            Your cart :)
+        </button>
+        
+        <div id="foodList" class="mb-4 overflow-y-auto h-[80%] justify-items-center">
+            <!-- Food items will appear here -->
+        </div>
+        <div>
+            <button class="rounded-md bg-green-600 text-white px-4 py-2 w-full" id="placeOrderBtn" onclick="placeOrder()">
+                Order Now :)
+            </button>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="container">
+    <div class="justify-center flex gap-6 pt-32 px-12">
+        <input type="search"
+            class="border-2 border-gray-400 rounded-lg w-72 p-2 pl-4 focus-visible:border-white focus-visible:shadow-md focus-visible:outline-none"
+            placeholder="Search food item" id="searchField"> <!-- এখানে "searchField" ঠিক করেছি -->
+
+        <input type="submit" class="rounded-md bg-black text-white px-4" id="submit" onclick="searchFoods()">
+    </div>
+</section>
+
+
+
+    <section class="container mt-16">
+        <div class="text-center py-8 text-4xl">
+            <h1>Savor Station</h1>
+        </div>
+
+        <!-- Centering the container -->
+        <div class="container players-container flex justify-center items-center gap-4 p-4 m-0">
+            <div class="foods w-full grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 justify-center" id="foods">
+                <!-- Food cards will add here -->
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="container align-bottom pt-10 px-10 mt-10 mb-10" id="footer">
+        <div class="upperFooter lg:flex lg:justify-between lg:pr-20 justify-items-center">
+            <div class="logo">
+                <h1 class="text-4xl font-bold">The Meal DB</h1>
+            </div>
+            <nav class="quick-section flex gap-8 list-none">
+                <li class=""><a href="#header">Home</a> </li>
+                <li class=""><a href="#searchFild">Menu</a></li>
+                <li class=""><a href="#about">About</a></li>
+                <li class=""><a href="https://www.linkedin.com/in/rifat-hossain-6b21741b3/">Contact</a></li>
+            </nav>
+        </div>
+        <div>
+            <p class="info align-center">@rifatbroh | 2025</p>
+        </div>
+    </footer>  
+
+    <!-- Details Pop Up view -->
+    <div id="foodDetailsModel" class="hidden"></div>
+ 
+    <script src="src/js/script.js"></script>
+</body>
+</html>
