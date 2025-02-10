@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.min.js"></script>
+</head>
+<body>
+    <!--JQuery selctor-->
+    <script>
+        jQuery(document).ready(function() {
+            //click indvidual color and show color code
+            $(".color-name").click(function() {
+                let cd = $(this).next(".color-box").css("background-color");
+
+                alert("color code: " + cd);
+            });
+        });
+    </script>
+
+    <div class="container">
+        <div class="title">
+            <h1>Get Color Code by Clicking</h1>
+        </div>
+
+        <div class="color-table">
+            <div class="row">
+                <div class="color-name">Aqua</div>
+                <div class="color-box" style="background-color: aqua;"></div>
+            </div>
+
+            <div class="row">
+                <div class="color-name">Blue</div>
+                <div class="color-box" style="background-color: blue;"></div>
+            </div>
+
+            <div class="row">
+                <div class="color-name">Purple</div>
+                <div class="color-box" style="background-color: purple;"></div>
+            </div>
+
+            <div class="row">
+                <div class="color-name">Red</div>
+                <div class="color-box" style="background-color: red;"></div>
+            </div>
+            
+            <div class="row">
+                <div class="color-name">Black</div>
+                <div class="color-box" style="background-color: black;"></div>
+            </div>
+
+            <div class="row">
+                <div class="color-name">Yellow</div>
+                <div class="color-box" style="background-color: yellow;"></div>
+            </div>
+
+            <div class="row">
+                <div class="color-name">Gray</div>
+                <div class="color-box" style="background-color: gray;"></div>
+            </div>
+
+            <div class="row">
+                <div class="color-name">Light Blue</div>
+                <div class="color-box" style="background-color: lightblue;"></div>
+            </div>
+
+            <div class="row">
+                <div class="color-name">Orange</div>
+                <div class="color-box" style="background-color: orange;"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
