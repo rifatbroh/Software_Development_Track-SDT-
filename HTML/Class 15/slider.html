@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartoon slider</title>
     <link rel="stylesheet" href="style.css">
-    <script src="jquery.min.js" ></script>
+    <script src="jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+
 </head>
+
 <body>
     <!--start here-->
-    <script>
+    <!-- <script>
         jQuery(document).ready(function() {
-            $().click(function() {
-
+            $("button").click(function() {
+                alert("hi sadia meh tumara friend!!")
             });
         });      
+    </script> -->
+
+    
+
+    <script>
+        jQuery(document).ready(function() {
+            $("button").click(function() {
+                $("#alert-message").text("Hi Sadia, keya tumhe burger chahiye!!");
+                $("#custom-alert").fadeIn();
+            });
+    
+            $("#close-alert").click(function() {
+                $("#custom-alert").fadeOut();
+            });
+        });
     </script>
+    
+
+    <!-- Custom Alert Box -->
+    <div id="custom-alert">
+        <div class="alert-box">
+            <p id="alert-message">This is a custom alert!</p>
+            <button id="close-alert">nhi</button>
+        </div>
+    </div>
+
 
     <!--create cartoon card-->
     <div class="container">
@@ -23,23 +53,32 @@
             <div class="cartoon-card">
                 <div class="card-1">
                     <img class="choto" src="images/beam.jpg" alt="beam">
-                    <p>Hello! I'm chota beam, you are looking awesome. If you are interested to talk about me then hit the button :)</p>
-                    <button>More info</button>
+                    <p>Hello! I'm chota beam, you are looking awesome. If you are interested to talk about me then hit
+                        the button :)</p>
+                    <button>See Magic</button>
                 </div>
 
                 <div class="card-1">
                     <img class="choto" src="images/doremon.jpg" alt="beam">
-                    <p>Hello! I'm chota beam, you are looking awesome. If you are interested to talk about me then hit the button :)</p>
-                    <button>More info</button>
+                    <p>Hello! meh hu doooremon, you are looking awesome. If you are interested to talk about me then hit
+                        the button :)</p>
+                    <button>See Magic</button>
                 </div>
 
                 <div class="card-1">
                     <img class="choto" src="images/OIP.jpg" alt="beam">
-                    <p>Hello! I'm chota beam, you are looking awesome. If you are interested to talk about me then hit the button :)</p>
-                    <button>More info</button>
+                    <p>Hello! meh hu tom, you are looking awesome. If you are interested to talk about me then hit
+                        the button :)</p>
+                    <button>See Magic</button>
                 </div>
+
+
             </div>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
 </body>
+
 </html>
