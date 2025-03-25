@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+.flex {
+    display: flex;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 3.5%;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.container {
+    background-color: black;
+    padding: 15px;
+}
+.logo {
+    width: 30%;
+    padding-left: 8%;
+}
+.menu {
+    width: 70%;
+    padding-left: 5%;
+    margin-top: 19px;
+}
+.hero-img {
+    width: 80%;
+    display: block;
+    margin: 0 atuo;
+    object-fit: cover;
+}
+.hero-img {
+    background-image: url(images/hero-img.png);
+    margin: 3% 0 3% 9%;
+    border-radius: 0 7px 7px 0;
+}
+
+
+.card-1 {
+    position: relative;
+    width: 15%;
+    height: 380px;
+    background-image: url(images/card_1.png);
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    overflow: hidden;
+    color: white; 
+    z-index: 2;
+}
+
+.card-1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+    z-index: 1;
+    border-radius: 6px;
+}
+
+.card-1 h2, .card-1 p {
+    position: relative;
+    z-index: 2;
+}
+
+.card-1 h2 {
+    margin-bottom: 10px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.item-card h1{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
+.item-card {
+    padding-bottom: 5%;
+}
+
+
+.box-container {
+    background-color: #f4f3f3
+}
+.item-1 {
+    width: 20%;
+    height: 260px;
+    padding: 3%;
+    background-color: white;
+    border-radius: 10px;
+}
+.box-items-1, .box-items-2 {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+.box-items-1 {
+    margin-bottom: 2%;
+}
+.box-items {
+    padding: 100px 0px 100px 0px;
+}
+.one {
+    color: red;
+}
+h2 {
+    margin-bottom: 15px;
+}
