@@ -1,0 +1,50 @@
+.hero {
+    width: 100%;
+    height: 638px;
+    background-color: #FFD4D0; 
+}
+.about {
+    width: 100%;
+    height: 445px;
+    background-color: black;
+}
+.contener h1 {
+    color: #FFD4D0;
+}
+.service {
+    width: 100%;
+    height: 520px;
+    background-color: #FFFFFF;
+}
+.portfolio-top {
+    width: 100%;
+    height: 317px;
+    background-color: #FFD4D0;
+}
+.portfolio-bottom {
+    width: 100%;
+    height: 760px;
+}
+.skills {
+    width: 100%;
+    height: 550px;
+}
+.testomonial {
+    width: 100%;
+    height: 415px;
+    background-color: #FFD4D0;
+}
+.blog {
+    width: 100%;
+    height: 772px;
+    background-color: #F7F7F7;
+}
+.contact {
+    width: 100%;
+    height: 450px;
+}
+.footer {
+    width: 100%;
+    height: 360px;
+    background-color: black;
+}
