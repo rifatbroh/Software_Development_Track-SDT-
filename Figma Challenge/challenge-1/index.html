@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+    <body>
+        <!--
+            All about sections
+                -> Navbar section
+                -> Home page section
+                -> Overview section
+                -> Releted course section
+                -> Alumnie section
+                -> Curicumlam section
+                -> FAQ section 
+        -->
+
+        <!-- Navbar section -->
+        <div class="nav-bar flex justify-between px-25 py-5">
+            <div class="nav-logo mt-[-5px]">
+                <img src="images/black-logo 1.png" alt="">
+            </div>
+            <div class="nav-link">
+                <ul class="flex gap-15 ml-137 mt-2 text-md">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Blogs</a></li>
+                </ul>
+            </div>
+            <div class="nav-btn ">
+                <button class="bg-blue-400 px-4 py-2 rounded text-white">Apply Now</button>
+            </div>
+        </div>
+
+        <!-- Home Page section -->
+        <div class="home-page flex justify-between px-25">
+            <div class="home-left">
+                <div class="home-text">
+                    <p class="text-md text-white shadow w-65 px-2 py-1 rounded mt-40">Specialization over generalization</p>
+                    <h1 class="text-5xl font-bold text-white my-5">Advanced Data Science </br> & AI Course</h1>
+                    <p class="text-xl text-white w-120 mb-5">Equip yourself with data science skills through live, interactive lectures guided by industry expert mentors</p>
+                    <p class="text-3xl text-white mb-10">Live  Interactive Classes</p>
+
+                    <div class="home-btn flex gap-3 bg-white px-3 py-3 w-52 rounded">
+                        <div class="btn-logo "><img src="images/download.png" alt=""></div>
+                        <div class="btn-btn mt-[-5px] font-bold">Download Brochure</div>
+                    </div>
+                </div>
+                <div class="home-img ml-70 mt-[-331px]"><img src="images/man-wearing-t-shirt-gesturing.png" alt=""></div>
+            </div>
+            <div class="home-right">
+                <div class="home-form mt-30">
+                    <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-2">We’re here to help!</h2>
+                        <p class="text-gray-600 mb-10">Please contact us in case of any query.</p>
+                      
+                        <form class="space-y-4">
+                          <input type="text" placeholder="Your name" class="w-full mb-5 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" />
+                      
+                          <input type="email" placeholder="Your email address" class="w-full mb-5 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" />
+                      
+                          <input type="tel" placeholder="Your phone number" class="w-full mb-5 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" />
+                      
+                          <select class="w-full mb-10 px-4 py-2 border border-gray-300 rounded text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400">
+                            <option disabled selected>Select Course</option>
+                            <option>Web Development</option>
+                            <option>Data Science</option>
+                            <option>Graphic Design</option>
+                          </select>
+                      
+                          <button type="submit" class="w-35 bg-blue-400 hover:bg-blue-700 text-white py-2  rounded transition duration-200">
+                            Get in Touch →
+                          </button>
+                        </form>
+                      </div>
+                      
+                </div>
+            </div>
+        </div>
+
+        <!-- Overview section -->
+        <div class="overview flex justify-center gap-45 my-15 bg-white p-10 mx-35 shadow-lg rounded-lg">
+            <div class="part-1 flex">
+                <div class="overview-img w-20 h-20 rounded-full bg-gray-100 flex items-center justify-center">
+                    <img class="w-15 h-15 object-cover" src="images/p-1.png" alt="">
+                </div>
+                
+                <div class="overview-text mt-4 ml-5">
+                    <p class="text-3xl font-bold text-green-500">126%</p>
+                    <p class="text-gray-500">170% Average Salary Hike</p>
+                </div>
+            </div>
+            <div class="part-1 flex">
+                <div class="overview-img w-20 h-20 rounded-full bg-gray-100 flex items-center justify-center">
+                    <img class="w-15 h-15 object-cover" src="images/p-2.png" alt="">
+                </div>
+                
+                <div class="overview-text mt-4 ml-5">
+                    <p class="text-3xl font-bold text-orange-400">100+</p>
+                    <p class="text-gray-500">Job placement</p>
+                </div>
+            </div>
+            <div class="part-1 flex">
+                <div class="overview-img w-20 h-20 rounded-full bg-gray-100 flex items-center justify-center">
+                    <img class="w-15 h-15 object-cover" src="images/p-3.png" alt="">
+                </div>
+                
+                <div class="overview-text mt-4 ml-5">
+                    <p class="text-3xl font-bold text-red-600">Live</p>
+                    <p class="text-gray-500">Interactive Seassion</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Releted course section -->
+        <div class="course">
+            <div class="course-text text-center">
+                <p class="text-blue-400 font-bold leading-relexed pt-15">RELATED COURSES</p>
+                <h1 class="text-3xl font-bold">Why Join this Program ?</h1>
+            </div>
+            <div class="container flex justify-center gap-10 ml-30 mt-15">
+                <div class="box-1 h-80 w-85 p-10 bg-white shadow-xl rounded-lg text-center">
+                    <div class="overview-img w-20 h-20 rounded-full bg-blue-400 flex items-center justify-center mx-auto">
+                        <img class="w-15 h-15 object-cover" src="images/hourglass 1.png" alt="">
+                    </div>
+                    <div class="text mt-5">
+                        <p class="font-bold text-xl mb-2">Real Work Experience</p>
+                        <p class="text-gray-400 leading-relaxed">
+                            Work with companies directly on software development projects to master your skills and build a strong project portfolio to get your.
+                        </p>
+                    </div>
+                </div>
+                <div class="box-1 h-80 w-85 p-10 bg-white shadow-xl rounded-lg text-center">
+                    <div class="overview-img w-20 h-20 rounded-full bg-blue-400 flex items-center justify-center mx-auto">
+                        <img class="w-15 h-15 object-cover" src="images/hourglass 1.png" alt="">
+                    </div>
+                    <div class="text mt-5">
+                        <p class="font-bold text-xl mb-2">Guaranteed job referral</p>
+                        <p class="text-gray-400 leading-relaxed">
+                            Work with companies directly on software development projects to master your skills and build a strong project portfolio to get your.
+                        </p>
+                    </div>
+                </div>
+                <div class="box-1 h-80 w-85 p-10 bg-white shadow-xl rounded-lg text-center">
+                    <div class="overview-img w-20 h-20 rounded-full bg-blue-400 flex items-center justify-center mx-auto">
+                        <img class="w-15 h-15 object-cover" src="images/hourglass 1.png" alt="">
+                    </div>
+                    <div class="text mt-5">
+                        <p class="font-bold text-xl mb-2">Crack FAANG Interview</p>
+                        <p class="text-gray-400 leading-relaxed">
+                            Work with companies directly on software development projects to master your skills and build a strong project portfolio to get your.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Alumnie section -->
+        <div class="alumnie">
+            <div class="course-text text-center">
+                <p class="text-blue-400 font-bold leading-relexed pt-10">Our Alumni Placed</p>
+                <h1 class="text-3xl font-bold mb-15">Explore Our Alumni & Connect With Them</h1>
+            </div>
+            <div class="container flex justify-center gap-10 ml-30">
+                <div class="box-1 h-90 w-95 p-5 bg-white ">
+                    <div class="profile flex justify-between">
+                        <div class="overview-img w-15 h-15 flex items-center justify-center">
+                            <img class="w-15 h-15 object-cover" src="images/kanika-1fca57bcc327f9519cc2d73952bffdb4c7b0a63621ba8370517dd17d7aa0c864.webp.gz.png" alt="">
+                        </div>
+                        <div class="text-2 flex border h-7 px-2  py-1 rounded">
+                            <div class="img w-5 h-5"><img src="images/p-1.png" alt=""></div>
+                            <p class="text-green-500 font-bold mt-[-5px] ml-3">120% Hike</p>
+                        </div>
+                    </div>
+                    <div class="text mt-5">
+                        <p class="font-bold text-2xl">Shaumaya Qha</p>
+                        <p class="text-md mt-2 mb-3">Software Engineer</p>
+                        <p class="text-gray-400 leading-relaxed">
+                            Apart from regular live classes, I
+                            was assigned with a Mentor
+                            someone from Microsoft and he
+                            guided me very well through out
+                            the course.                        
+                        </p>
+                        <div class="allu-img my-5"><img src="images/Frame 55809.png" alt=""></div>
+                        <div class="logo-link flex">
+                            <div class="logo"><img src="images/linkedin-f44fb7861d9c0cffc431d646f65276ab0a0dc7908ce0ed7cc80b7bc7532d5b12.svg.gz.png" alt=""></div>
+                            <div class="text-logotext-sm text-blue-500 mt-1 ml-3"><p>Read full review</p></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="box-1 h-90 w-95 p-5 bg-white ">
+                    <div class="profile flex justify-between">
+                        <div class="overview-img w-15 h-15 flex items-center justify-center">
+                            <img class="w-15 h-15 object-cover" src="images/kanika-1fca57bcc327f9519cc2d73952bffdb4c7b0a63621ba8370517dd17d7aa0c864.webp.gz (1).png" alt="">
+                        </div>
+                        <div class="text-2 flex border h-7 px-2  py-1 rounded">
+                            <div class="img w-5 h-5"><img src="images/p-1.png" alt=""></div>
+                            <p class="text-green-500 font-bold mt-[-5px] ml-3">120% Hike</p>
+                        </div>
+                    </div>
+                    <div class="text mt-5">
+                        <p class="font-bold text-2xl">Subhangi Duhan</p>
+                        <p class="text-md mt-2 mb-3">Software Researcher</p>
+                        <p class="text-gray-400 leading-relaxed">
+                            Apart from regular live classes, I
+                            was assigned with a Mentor
+                            someone from Microsoft and he
+                            guided me very well through out
+                            the course.                        
+                        </p>
+                        <div class="allu-img my-5"><img src="images/Frame 55809 (1).png" alt=""></div>
+                        <div class="logo-link flex">
+                            <div class="logo"><img src="images/linkedin-f44fb7861d9c0cffc431d646f65276ab0a0dc7908ce0ed7cc80b7bc7532d5b12.svg.gz.png" alt=""></div>
+                            <div class="text-logotext-sm text-blue-500 mt-1 ml-3"><p>Read full review</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-1 h-90 w-95 p-5 bg-white ">
+                    <div class="profile flex justify-between">
+                        <div class="overview-img w-15 h-15 flex items-center justify-center">
+                            <img class="w-15 h-15 object-cover" src="images/kanika-1fca57bcc327f9519cc2d73952bffdb4c7b0a63621ba8370517dd17d7aa0c864.webp.gz (2).png" alt="">
+                        </div>
+                        <div class="text-2 flex border h-7 px-2  py-1 rounded">
+                            <div class="img w-5 h-5"><img src="images/p-1.png" alt=""></div>
+                            <p class="text-green-500 font-bold mt-[-5px] ml-3">120% Hike</p>
+                        </div>
+                    </div>
+                    <div class="text mt-5">
+                        <p class="font-bold text-2xl">Paras Yadav</p>
+                        <p class="text-md mt-2 mb-3">Software Tester</p>
+                        <p class="text-gray-400 leading-relaxed">
+                            Apart from regular live classes, I
+                            was assigned with a Mentor
+                            someone from Microsoft and he
+                            guided me very well through out
+                            the course.                        
+                        </p>
+                        <div class="allu-img my-5"><img src="images/Frame 55809 (2).png" alt=""></div>
+                        <div class="logo-link flex">
+                            <div class="logo"><img src="images/linkedin-f44fb7861d9c0cffc431d646f65276ab0a0dc7908ce0ed7cc80b7bc7532d5b12.svg.gz.png" alt=""></div>
+                            <div class="text-logotext-sm text-blue-500 mt-1 ml-3"><p>Read full review</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ajaira-section flex flex-col justify-center items-center text-center">
+                <img class="my-10" src="images/Frame 5.png" alt="">
+                <div class="nav-btn mt-4">
+                    <button class="bg-blue-400 px-4 py-2 rounded text-white mb-10">Connect Now →</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Faq section -->
+        <div class="faq">
+            <div class="course-text text-center">
+                <p class="text-blue-400 font-bold leading-relexed pt-10">Our Alumni Placed</p>
+                <h1 class="text-4xl font-bold mb-15">Our Comprehensive curriculum, Designed for professionals</h1>
+            </div>
+            <div class="container flex gap-30 px-25 mb-100">
+                <div class="left">
+                    <h1 class="font-bold text-2xl mb-7 mt-5">Course Description</h1>
+                    <p class="text-gray-500 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                        accumsan lacus vel facilisis.
+                    </p>
+
+                    
+                    <div class="form w-180">
+                        <select class="w-full mb-7 px-4 py-4 font-bold border border-gray-300 rounded text-gray-500 ">
+                            <option disabled selected>Unit 0 - Foundation Of Programming</option>
+                        </select>
+                        <select class="w-full mb-7 px-4 py-4 font-bold border border-gray-300 rounded text-gray-500">
+                            <option disabled selected>Unit 1 - Data Structures and Algorithms</option>
+                        </select>
+                        <select class="w-full mb-7 px-4 py-4 font-bold border border-gray-300 rounded text-gray-500">
+                            <option disabled selected>Unit 2 - System Design in Depth</option>
+                        </select>
+                        <select class="w-full mb-7 px-4 py-4 font-bold border border-gray-300 rounded text-gray-500">
+                            <option disabled selected>Unit 3 - Advance Data Structures & Algorithms</option>
+                        </select>
+                        <select class="w-full mb-7 px-4 py-4 font-bold border border-gray-300 rounded text-gray-500">
+                            <option disabled selected>Unit 4 -Electives & Specialization</option>
+                        </select>
+                        <select class="w-full mb-7 px-4 py-4 font-bold border border-gray-300 rounded text-gray-500">
+                            <option disabled selected>Unit 5 -Work on End to End Projects in Partnership With Startups</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="right w-200">
+                    <div class="home-form w-100 ml-20 mt-5">
+                        <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm">
+                            <img class="mb-7" src="images/div.eduvibe-course-details-card-preview.png" alt="">
+                          
+                            <form class="space-y-4">
+                              <input type="text" placeholder="Enter Full Name" class="w-full mb-5 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" />
+                          
+                              <input type="email" placeholder="Enter email address" class="w-full mb-5 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" />
+                          
+                              <input type="tel" placeholder="Enter phone number" class="w-full mb-5 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" />
+                          
+                              <select class="w-full mb-5 px-4 py-2 border border-gray-300 rounded text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400">
+                                <option disabled selected>Select Course</option>
+                              </select>
+                              <input type="tel" placeholder="Schedule Date & Time" class="w-full mb-5 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" />
+                              <p class="text-gray-400">By submitting the form, you agree to our Terms and Conditions and our Privacy Policy.</p>
+                              <button type="submit" class="w-full bg-blue-400 hover:bg-blue-700 text-white py-2  rounded transition duration-200">
+                                Apply for Counselling
+                              </button>
+                            </form>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-center items-center my-30">
+            <div class="home-btn flex gap-3 px-3 py-3  rounded border border-blue-400 items-center">
+                <div class="btn-logo">
+                    <img src="images/download (1).png" alt="Download Icon" class="w-6 h-6">
+                </div>
+                <div class="btn-text font-bold text-blue-400">Download Brochure</div>
+            </div>
+        </div>
+        
+
+        <!-- Projects -->
+        <div class="project flex justify-between px-25">
+            <div class="pro-left">
+                <h1 class="text-4xl font-bold">Hands-on Projects</h1>
+                <p class="my-8">Find out how our Mentor transformed their careers by giving </br> Hands on Projects.</p>
+                <div class="btn flex gap-5">
+                    <div class="btn-left px-4 py-2 w-42 rounded text-white text-center"><button><span class="text-3xl font-bold">10+</span></br> Projects</button></div>
+                    <div class="btn-right px-4 py-2 w-42 rounded text-white text-center"><button><span class="text-3xl font-bold">10+</span></br> Projects</button></div>
+                </div>
+            </div>
+            <div class="pro-right h-70 w-150 p-10 bg-white shadow-lg">
+                <p class="text-2xl text-gray-400 font-bold" >Authentication</p>
+                <img src="images/Group 1000004086.png" alt="" class="my-3">
+                <p>Create authentication technology to give access, Correspond to those stored in a database of authorized users.</p>
+
+                <div class="img-logo flex py-5">
+                    <div class="test mt-1 "><p>Tools: </p></div>
+                    <div class="img-list">
+                        <ul class="flex gap-3 ml-3">
+                            <li><img src="images/1.png" alt=""></li>
+                            <li><img src="images/2.png" alt=""></li>
+                            <li><img src="images/3.png" alt=""></li>
+                            <li><img src="images/SVG.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Event details -->
+        <div class="event flex justify-between px-25 mb-25">
+            <div class="event-left border-2 border-gray-200 px-6 py-4">
+                <h1 class="text-2xl mb-5 font-bold text-blue-400">Course Highlight</h1>
+                <ul class="">
+                    <li class="flex mb-3"> 
+                        <div class="img-event">
+                            <img src="images/SVG (1).png" alt="">
+                        </div>
+                        <div class="text-event mt-1 ml-2">
+                            <p>350+ Live Sessions</p>
+                        </div>
+                    </li>
+                    <li class="flex mb-3"> 
+                        <div class="img-event">
+                            <img src="images/SVG (1).png" alt="">
+                        </div>
+                        <div class="text-event mt-1 ml-2">
+                            <p>350+ Live Sessions</p>
+                        </div>
+                    </li>
+                    <li class="flex mb-3"> 
+                        <div class="img-event">
+                            <img src="images/SVG (1).png" alt="">
+                        </div>
+                        <div class="text-event mt-1 ml-2">
+                            <p>350+ Live Sessions</p>
+                        </div>
+                    </li>
+                    <li class="flex mb-3"> 
+                        <div class="img-event">
+                            <img src="images/SVG (1).png" alt="">
+                        </div>
+                        <div class="text-event mt-1 ml-2">
+                            <p>350+ Live Sessions</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="event-right border-2 border-gray-200 px-6 py-4">
+                <p class="text-gray-400 my-7">We are driven by the idea of program affordability. So, we give you several financial options to manage
+                    and budget the expenses of your course.
+                </p>
+                <h1 class="font-bold text-3xl mb-4">Starting at ₹ 120,000 + GST</h1>
+                <p>EMI starting from: ₹ 5,900/month</p>
+                <div class="nav-btn ml-150 mt-[-40px]">
+                    <button class="bg-blue-400 px-4 py-2 rounded text-white">Apply Now</button>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Ticket -->
+        <div class="ticket">
+            <h1 class="text-4xl font-bold text-center">Next Cohort Details</h1>
+            <img class="mx-auto my-10" src="images/Group 1000004122.png" alt="">
+        </div>
+
+        <!-- Team Members -->
+        <div class="team">
+            <div class="team-text">
+                <div class="course-text text-center">
+                    <p class="text-blue-400 font-bold leading-relexed pt-10">DISCOVER OUR MENTORS</p>
+                    <h1 class="text-4xl font-bold mb-20 px-60 mt-5">We have Industry Experts as Mentor who guide you with Career Planning & Interview Preparation</h1>
+                </div>
+            </div>
+            <div class="team-profile flex justify-center gap-15">
+                <div class="team-1 bg-red-white shadow-lg mb-5">
+                    <img src="images/profile-1.png" alt="">
+                    <div class="corner flex justify-between mt-3 px-3">
+                        <div class="text">
+                            <h1 class="text-2xl font-bold">Sachin Sharma</h1>
+                            <p class="text-md text-gray-400">Managing Director</p>
+                        </div>
+                        <div class="img mt-3"><img src="images/microSoft 3.png" alt=""></div>
+                    </div>
+                    <div class="logo-link flex px-3 mt-15 ">
+                        <div class="logo mb-5"><img src="images/linkedin-f44fb7861d9c0cffc431d646f65276ab0a0dc7908ce0ed7cc80b7bc7532d5b12.svg.gz.png" alt=""></div>
+                        <div class="text-logotext-sm text-blue-500 mt-1 ml-3 mb-5"><p>View Profile</p></div>
+                    </div>
+                </div>
+
+                <div class="team-1 bg-red-white shadow-lg mb-5">
+                    <img src="images/profile-2.png" alt="">
+                    <div class="corner flex justify-between mt-3 px-3">
+                        <div class="text">
+                            <h1 class="text-2xl font-bold">Santosh Kumar</h1>
+                            <p class="text-md text-gray-400">Managing Director</p>
+                        </div>
+                        <div class="img mt-3"><img src="images/microSoft 3.png" alt=""></div>
+                    </div>
+                    <div class="logo-link flex px-3 mt-15 ">
+                        <div class="logo mb-5"><img src="images/linkedin-f44fb7861d9c0cffc431d646f65276ab0a0dc7908ce0ed7cc80b7bc7532d5b12.svg.gz.png" alt=""></div>
+                        <div class="text-logotext-sm text-blue-500 mt-1 ml-3 mb-5"><p>View Profile</p></div>
+                    </div>
+                </div>
+
+                <div class="team-1 bg-red-white shadow-lg mb-5">
+                    <img src="images/sachinImage 2.png" alt="">
+                    <div class="corner flex justify-between mt-3 px-3">
+                        <div class="text">
+                            <h1 class="text-2xl font-bold">Prem Kumar</h1>
+                            <p class="text-md text-gray-400">Mentorship</p>
+                        </div>
+                        <div class="img mt-3"><img src="images/microSoft 3.png" alt=""></div>
+                    </div>
+                    <div class="logo-link flex px-3 mt-15 ">
+                        <div class="logo mb-5"><img src="images/linkedin-f44fb7861d9c0cffc431d646f65276ab0a0dc7908ce0ed7cc80b7bc7532d5b12.svg.gz.png" alt=""></div>
+                        <div class="text-logotext-sm text-blue-500 mt-1 ml-3 mb-5"><p>View Profile</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--button -->
+        <div class="ajaira-section flex flex-col mt-[-60px] text-center">
+            <div class="nav-btn mt-4">
+                <button class="bg-blue-400 mb-25 px-6 py-4 rounded text-white ">More Mentor Details</button>
+            </div>
+        </div>
+
+        <!-- text part -->
+        <div class="text-part flex justify-between px-25 gap-15">
+            <div class="left-part">
+                <h1 class="text-5xl font-bold">Thousands of stories 
+                </br>  of growth</h1>
+                <p class="text-2xl text-gray-400 mt-5">Find out how our Learners transformed their careers after learning witH us.</p>
+            </div>
+            <div class="right-part bg-white shadow-lg p-5">
+                <img src="images/“.png" alt="">
+                <p class="my-5">“As a senior engineer I have specially reviewed the System Design content and live classes of My_Tutor and I found it more on the implementation side instead of theoretical concepts which helps to work in real-time environment in the organization. I would recommend My_Tutor course to get expertise in System Design.”</p>
+                <div class="elips flex">
+                    <div class="img-part">
+                        <img src="images/Ellipse 1.png" alt="">
+                    </div>
+                    <div class="textt mt-2 ml-4 flex">
+                        <div class="one">
+                            <h1 class="text-blue-400 font-bold text-2xl">Prem Kumar</h1>
+                            <img src="images/Group 1000004036.png" alt="">
+                        </div>
+                        <div class="two">
+                            <div class="logo-link flex px-3 ml-40">
+                                <div class="logo mb-5"><img src="images/linkedin-f44fb7861d9c0cffc431d646f65276ab0a0dc7908ce0ed7cc80b7bc7532d5b12.svg.gz.png" alt=""></div>
+                                <div class="text-logotext-sm text-blue-500 mt-1 ml-3 mb-5"><p>View Profile</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Frequency question part -->
+        <div class="container mt-10">
+            <div class="text-content ml-60">
+                <div class="course-text text-center">
+                    <p class="text-blue-400 font-bold leading-relexed pt-5">ASK YOUR QUESTIONS</p>
+                    <h1 class="text-4xl font-bold mb-15 px-60 ">Frequently Asked Questions</h1>
+                </div>
+            </div>
+            <div class="q-content px-25">
+                <div class="bx-1 border-2 border-gray-200 w-full px-5 py-3 mb-10">
+                    <p class="text-2xl"><span class="text-3xl font-bold text-blue-500">+ </span>How to enroll for a Course?</p>
+                </div>
+                <div class="bx-1 border-2 border-gray-200 w-full px-5 py-3 mb-10">
+                    <p class="text-2xl"><span class="text-3xl font-bold text-blue-500">+ </span>Can I get the recordings of my previous lectures?</p>
+                </div>
+                <div class="bx-1 border-2 border-gray-200 w-full px-5 py-3 mb-10">
+                    <p class="text-2xl"><span class="text-3xl font-bold text-blue-500">+ </span>Who would be the instructor for enrolled course?</p>
+                </div>
+                <div class="bx-1 border-2 border-gray-200 w-full px-5 py-3 mb-10">
+                    <p class="text-2xl"><span class="text-3xl font-bold text-blue-500">+ </span>What kind of placement support will be given post completion of program?</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="box-top flex px-25 py-28 justify-center gap-20">
+                <div class="side-1">
+                    <img class="mb-6 ml-[-10px]" src="images/black-logo 2.png" alt="">
+                    <p class="text-white mb-6">It is a long established fact that a
+                        reader will be distracted by the
+                        readable content of a page when
+                        looking at its layout. The point of using Lorem Ipsum.
+                    </p>
+                    <div class="logo">
+                        <ul class="flex gap-3">
+                            <li class="h-10 w-10 bg-blue-400 shadow-lg"><img src="images/a.elementor-repeater-item-ebc11e8.png" alt=""></li>
+                            <li class="h-10 w-10 bg-blue-400 shadow-lg"><img src="images/a.elementor-repeater-item-7187269.png" alt=""></li>
+                            <li class="h-10 w-10 bg-blue-400 shadow-lg"><img src="images/a.elementor-repeater-item-502b779.png" alt=""></li>
+                            <li class="h-10 w-10 bg-blue-400 shadow-lg"><img src="images/a.elementor-repeater-item-ae8aa51.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="side-2">
+                    <p class="text-2xl text-white font-bold mb-12">Explore</p>
+                    <div class="list">
+                        <ul>
+                            <li class="flex gap-3">
+                                <div class="lst-logo"><img src="images/Frame.png" alt=""></div>
+                                <div class="list-text text-white mb-5">About Us</div>
+                            </li>
+                            <li class="flex gap-3">
+                                <div class="lst-logo"><img src="images/Frame.png" alt=""></div>
+                                <div class="list-text text-white mb-5">Blog</div>
+                            </li>
+                            <li class="flex gap-3">
+                                <div class="lst-logo"><img src="images/Frame.png" alt=""></div>
+                                <div class="list-text text-white mb-5">Campus Program</div>
+                            </li>
+                            <li class="flex gap-3">
+                                <div class="lst-logo"><img src="images/Frame.png" alt=""></div>
+                                <div class="list-text text-white mb-5">Become a Mentor</div>
+                            </li>
+                            <li class="flex gap-3">
+                                <div class="lst-logo"><img src="images/Frame.png" alt=""></div>
+                                <div class="list-text text-white mb-5">Contact Us</div>
+                            </li>
+                            <li class="flex gap-3">
+                                <div class="lst-logo"><img src="images/Frame.png" alt=""></div>
+                                <div class="list-text text-white mb-5">Hire From Us</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="side-3">
+                    <p class="text-2xl text-white font-bold mb-12">Useful Links</p>
+                    <div class="list">
+                        <ul>
+                            <li class="flex gap-3">
+                                <div class="lst-logo"><img src="images/Frame.png" alt=""></div>
+                                <div class="list-text text-white mb-5">Privacy Policy</div>
+                            </li>
+                            <li class="flex gap-3">
+                                <div class="lst-logo"><img src="images/Frame.png" alt=""></div>
+                                <div class="list-text text-white mb-5">Tearm of Use</div>
+                            </li>
+                            <li class="flex gap-3">
+                                <div class="lst-logo"><img src="images/Frame.png" alt=""></div>
+                                <div class="list-text text-white mb-5">Refund Policy</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="side-4">
+                    <p class="text-2xl text-white font-bold mb-12">Useful Links</p>
+                    <div class="list">
+                        <ul>
+                            <li class="flex gap-3">
+                                <div class="lst-logo"><img src="images/Group.png" alt=""></div>
+                                <div class="list-text text-white mb-5">Privacy Policy</div>
+                            </li>
+                            <li class="flex gap-3">
+                                <div class="lst-logo"><img src="images/Group (1).png" alt=""></div>
+                                <div class="list-text text-white mb-5">Tearm of Use</div>
+                            </li>
+                            <li class="flex gap-3">
+                                <div class="lst-logo"><img src="images/Vector (1).png" alt=""></div>
+                                <div class="list-text text-white mb-5">Refund Policy</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="box-bottom mt-[-60px]">
+                <p class="text-white text-md text-center">Copyright 2024 My_Tutor| Designed By Shubham Modi.</p>
+            </div>
+        </div>
+    </body>
+</html>
