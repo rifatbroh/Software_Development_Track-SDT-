@@ -1,0 +1,73 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.nab-menu, .hero-section, .feature, .card, .content{
+    background-color: #fff9f3;
+}
+.btn-1 {
+    color: #3a30ba;
+}
+.txt {
+    color: #45426e;
+}
+.mango, p {
+    color: #17134a;
+}
+.btnn {
+    background-image: url(https://cdn.dorik.com/5e373b6c43a72a001f56dbf6/61a1f4035bfd7b0011fb92f9/images/button-bg_wqfy1ggx.svg);
+    background-repeat: no-repeat;
+    background-position: center calc(50% + 20px);
+}
+.btn-middle {
+    background-color: #3a30ba;
+}
+
+.intro-video video {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.intro-video {
+    border: 14px solid #e4d7d7;
+    border-radius: 10px;
+    max-width: 70%;
+    margin: 0 auto;
+}
+.box {
+    background-color: white;
+}
+
+.slide-1 {
+    height: 720px;
+    background-color: #fff9f3;
+}
+.slide-2 {
+    height: 720px;
+    background-color: #fdeff7;
+}
+.slide-3 {
+    height: 720px;
+    background-color: #f1faf7;
+}
+.slide-4 {
+    height: 720px;
+    background-color: #eeebfa;
+}
+.slide-1, .slide-2, .slide-3, .slide-4 {
+    width: 90%;
+}
+.slide-6 {
+    background-color: #030521
+}
+.y {
+    color: white;
+}
+.pricing {
+    width: 100%;
+    height: 450px;
+    background-color: #fff9f3;
+}
+.community {
+    height: 700px;
+}
