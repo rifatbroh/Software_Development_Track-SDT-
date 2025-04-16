@@ -18,3 +18,6 @@ https://rifatbroh-rrf-exam-01.netlify.app/
 
 Figma challenge-1:
 https://challenge-i.netlify.app/
+
+Figma challenge-2:
+https://challenge-ii.netlify.app/
